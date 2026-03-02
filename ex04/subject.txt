@@ -1,0 +1,13 @@
+Exercise: 04
+Sed is for losers
+Files to Submit: Makefile, main.cpp, *.cpp, *.{h, hpp}
+Forbidden: std::string::replace
+
+./replace file s1 s2
+open file, copy content into file.replace, replacing occurence of s1 with s2
+
+No C file manipulation
+
+the member functions of the class std::string are allowed, except replace
+
+handle unexpected inputs and errors.

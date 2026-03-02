@@ -13,7 +13,7 @@ int	main(void)
 	std::cout << std::left << std::setw(40) << "addresse memoire de la string originale" << " : ";
 	std::cout << &string << std::endl;
 
-	std::cout << std::left << std::setw(40) << "addresse stockée dans stringPTR" << " : ";
+	std::cout << std::left << std::setw(40) << "addresse stockee dans stringPTR" << " : ";
 	std::cout << stringPTR << std::endl;
 
 	std::cout << std::left << std::setw(40) << "addresse memoire de la stringREF" << " : ";
@@ -24,10 +24,10 @@ int	main(void)
 	std::cout << std::left << std::setw(40) << "contenu de la string originale" << " : ";
 	std::cout << string << std::endl;
 
-	std::cout << std::left << std::setw(40) << "contenu pointé par stringPTR" << " : ";
+	std::cout << std::left << std::setw(40) << "contenu pointe par stringPTR" << " : ";
 	std::cout << *stringPTR << std::endl;
 	
-	std::cout << std::left << std::setw(40) << "contenu référencée par stringREF" << " : ";
+	std::cout << std::left << std::setw(40) << "contenu referencee par stringREF" << " : ";
 	std::cout << stringREF << std::endl;
 
 	return (0);

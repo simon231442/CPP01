@@ -1,0 +1,25 @@
+Implement a Weapon class that has:
+• A private attribute type, which is a string.
+• A getType() member function that returns a constant reference to type.
+• A setType() member function that sets type using the new value passed as a pa-
+rameter.
+Now, create two classes: HumanA and HumanB. They both have a Weapon and
+a name. They also have a member function attack() that displays (without the angle
+brackets):
+<name> attacks with their <weapon type>
+• While HumanA takes the Weapon in its constructor, HumanB does not.
+• HumanB may not always have a weapon, whereas HumanA will always be
+armed.
+
+---> Weapon
+//qu'est-ce qu'une "constante reference"?
+//get type comment prototyper une fonction qui retourne une "constant reference"? est un pointeur reference?
+//return(type_); suffit a retourner un pointeur? 
+//dans le constructeur, pouruoi std::string const type alors que la valeur est vouee a etre change?
+
+---> HumanA
+//HumanA(std::string name, Weapon &weapon) Weapon &weapon est-ce un pointeur reference?
+//:name_(name),weapon_(weapon) comment s'appelle cette maniere et pourquoi devoir le faire ainsi? peut-on le faire autrement?
+
+
+// j'en suis a capter Weapon &weapon_; et Weapon      *weapon_;
